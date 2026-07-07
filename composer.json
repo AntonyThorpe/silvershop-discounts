@@ -6,7 +6,8 @@
     "keywords" : ["silverstripe","shop","shopping cart","ecommerce","discount","coupons"],
     "require" : {
         "silvershop/core": "^6",
-        "php-http/guzzle7-adapter": "1.x-dev"
+        "silverstripe/cms": "^6",
+        "php-http/guzzle7-adapter": "^1"
     },
     "authors": [{
       "name": "SilverShop Contributors",
@@ -16,7 +17,7 @@
         "phpunit/phpunit": "^11.3",
         "silverstripe/sqlite3": "^4.0",
         "squizlabs/php_codesniffer": "^3.0",
-        "cambis/silverstan": "dev-main"
+        "cambis/silverstan": "^2.2"
     },
     "scripts": {
         "lint": "phpcs src/ tests/ --extensions=php",
